@@ -17,7 +17,7 @@ Questa repository contiene laboratori, progetti e attività pratiche organizzate
 
 ---
 
-## Indice Settimane (cliccabile)
+## Indice 
 
 ### Linux Security
 - [Week 01 – Linux Basics](01-linux-security/week01-linux-basics/README.md)
