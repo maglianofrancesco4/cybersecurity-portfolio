@@ -53,13 +53,12 @@ Questa repository contiene laboratori, progetti e attività pratiche organizzate
 
 ## Come usare questa repository
 
-1. Ogni settimana contiene un **README con obiettivi, attività e tool da usare**
+1. Ogni settimana contiene un **README con obiettivi, attività e tool usati**
 2. All’interno delle settimane ci sono cartelle:
    - `screenshots/` → prove visive
    - `configs/` → file di configurazione reali
    - `reports/` → output di scansioni, analisi, lab
    - `notes/` → appunti giornalieri e checklist
-3. Effettuare commit giornalieri su GitHub per tracciare il progresso
 
 ---
 
