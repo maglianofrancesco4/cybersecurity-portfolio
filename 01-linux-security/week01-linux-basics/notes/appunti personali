@@ -1,0 +1,17 @@
+comandi , differenze e casi d'uso :
+
+1) locate, seguito da una keyword es. (locate nmap), è buono per trovare tutte le occorrenze in cui un file con questo nome è presente
+   all'interno di un path , poco mirato, e troppi risultati che confondono.
+
+2) whereis, seguito da una keyword es. (whereis nmap), più specifico, utilizzato per trovare binaries associati a quel nome ed anche 
+   i file man (manual)
+
+3) which, ancora piu specifico, restituisce il path in cui è contenuto il file che cerchiamo e dove è posizionato quindi.
+   ES. "which nmap" restituirà "usr/bin/nmap"
+
+4) find, probabilmente il più utile , posso definire che tipo di file mi serve e e il nome , e lo cerco all interno di tutto il 
+   sistema di directories, altrimenti posso dargli la directories in cui sto cercando per una ricerca piu rapida 
+ES. "find /etc -type f -name apache2" dopo la keyword nei flag successivi ho definito la directory in cui voglio cercarlo (/etc)
+    il tipo di file (f, ordinario) e il nome.
+    posso farlo anche a partire dalla directory "/" per cercare in tutte le cartelle dell'alberatura.
+posso inotlre usare wildcards come (\*) per estendere la ricerca a file con quel nome ma di cui non conosco l'estensione.
